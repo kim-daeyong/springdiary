@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="734c57ed-159a-4a6a-825e-1c36633f6831" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/example/webBoard/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/example/webBoard/BoardDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/example/webBoard/BoardDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/example/webBoard/DBUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/example/webBoard/FreeBoardListServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/example/webBoard/FreeReadServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/example/webBoard/ModifyServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/example/webBoard/SelectListExam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/example/webBoard/WebBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/DBUtil/ConnectionContextHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/DBUtil/ConnectionContextHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/DBUtil/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/DBUtil/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/SelectListExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/SelectListExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/SelectOneExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/SelectOneExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/dao/BoardDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/dao/BoardDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/dao/BoardDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/dao/BoardDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/dao/BoardDaoSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/dao/BoardDaoSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/dao/UserDAOSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/dao/UserDAOSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/dto/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/dto/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/dto/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/filter/RequestEncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/filter/RequestEncodingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/filter/SecurityFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/filter/SecurityFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/service/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/service/BoardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/service/BoardServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/servlet/DeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/servlet/DeleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/servlet/FreeReadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/servlet/FreeReadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/servlet/ListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/servlet/ListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/servlet/ModifyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/servlet/ModifyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/servlet/UserJoinServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/servlet/UserJoinServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/servlet/UserLoginSerlvet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/servlet/UserLoginSerlvet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/servlet/UserLogoutSerlvet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/servlet/UserLogoutSerlvet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/servlet/WriteformServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/java/my/examples/servlet/WriteformServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/resources/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/resources/datasource.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/webapp/WEB-INF/views/freeList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/webapp/WEB-INF/views/freeList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/webapp/WEB-INF/views/joinform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/webapp/WEB-INF/views/joinform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/webapp/WEB-INF/views/loginform.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/webapp/WEB-INF/views/loginform.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/webapp/WEB-INF/views/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/webapp/WEB-INF/views/modify.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/webapp/WEB-INF/views/read.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/webapp/WEB-INF/views/read.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebBoard/src/main/webapp/WEB-INF/views/write.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../WebBoard/src/main/webapp/WEB-INF/views/write.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/algorithmExam" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/algorithmExam" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/BusinessCard.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/src/main/java/Exam/Friend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/src/main/java/Exam/FriendExam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/src/main/java/Exam/FriendMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/src/main/java/Exam/FriendManeger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/src/main/java/Exam/FriendUi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/src/main/java/businesscard/BusinessCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/src/main/java/businesscard/BusinessCardDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/src/main/java/businesscard/BusinessCardData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/src/main/java/businesscard/BusinessCardExam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/src/main/java/businesscard/BusinessCardUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/src/main/java/businesscard/BusinessCardsDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/target/classes/Exam/Friend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/target/classes/Exam/FriendExam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/target/classes/Exam/FriendMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/target/classes/Exam/FriendManeger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/target/classes/Exam/FriendUi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/target/classes/META-INF/BusinessCard.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/target/classes/businesscard/BusinessCard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/target/classes/businesscard/BusinessCardDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/target/classes/businesscard/BusinessCardData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/target/classes/businesscard/BusinessCardExam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/target/classes/businesscard/BusinessCardUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/NameCard/target/classes/businesscard/BusinessCardsDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/ioexamsss/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/ioexamsss/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/ioexamsss/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/ioexamsss/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/ioexamsss/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/ioexamsss/ioexamsss.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/ioexamsss/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/ioexamsss/src/main/java/my/examples/ioexam/IOExam01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/ioexamsss/target/classes/my/examples/ioexam/IOExam01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/javaexam.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/ioexam/IoExam01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Apple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/AppleBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Battery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Bus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/CollectionTest01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/CollectionTest02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/CollectionTest03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/CollectionTest04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Exam/File02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Exam/Folder02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Exam/FolderFileExam02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Exam/LottoBall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Exam/LottoExam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Exam/LottoMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Exam01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Exam02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Exam03.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Exam04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Exam05.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Exam06.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Exam07.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/File.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Folder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/FolderFileExam01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/GenericBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Goods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/GoodsExam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/GoodsExam2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/KoreaLottoBallFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Light.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Listener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/LottoBall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/LottoBallFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/LottoExam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/LottoMachine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/LottoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/MyListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/ObjectBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Singleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/SingletonTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/SportsCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/StudentComparExam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/StudentExam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Tumbler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/Warm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/fw/Action.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/src/main/java/my/examples/javaexam/my/MyAction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/META-INF/javaexam.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/AppleBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Battery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Box.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Bus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/CollectionTest01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/CollectionTest02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/CollectionTest03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/CollectionTest04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Exam/File02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Exam/Folder02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Exam/FolderFileExam02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Exam/LottoBall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Exam/LottoExam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Exam/LottoMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Exam01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Exam02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Exam03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Exam04.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Exam05.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Exam06.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Exam07.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/File.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Folder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/FolderFileExam01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/GenericBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/GoodsExam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/GoodsExam2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/KoreaLottoBallFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Light.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Listener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/LottoBall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/LottoBallFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/LottoExam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/LottoMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/LottoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/MyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/NameComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/NameCompare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/ObjectBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/SingletonTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/SportsCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/StudentComparExam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/StudentExam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Tumbler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/Warm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/enCompare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/fw/Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/koCompare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/maCompare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../fastcampus3/javaexam/target/classes/my/examples/javaexam/my/MyAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/Webboard/BoardDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/Webboard/BoardDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/Webboard/SelectListExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/Webboard/SelectListExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/Webboard/SelectOneExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/Webboard/SelectOneExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/BoardDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/BoardDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/BoardDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/BoardDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/BoardListServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/BoardListServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/CookieGetServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/CookieGetServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/CookieSetServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/CookieSetServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/DataSourceExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/DataSourceExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/DeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/DeleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/ForwardServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/ForwardServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/HikariExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/HikariExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/RedirectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/RedirectServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/ResultServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/ResultServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/SelectListExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/SelectListExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/SelectOneExam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/SessionGetServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/SessionGetServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/SessionSetServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/SessionSetServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/TransactionExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/TransactionExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/WebServletExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/WebServletExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/WriteformServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/WriteformServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/plus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/firsteb/plus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/webBoard/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/webBoard/BoardDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/webBoard/BoardDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/webBoard/DBUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/webBoard/FreeBoardListServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/webBoard/FreeReadServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/webBoard/ModifyServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/webBoard/SelectListExam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/java/my/examples/webBoard/WebBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/resources/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/resources/datasource.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/webapp/WEB-INF/views/freeList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/webapp/WEB-INF/views/freeList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/webapp/WEB-INF/views/read.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/webapp/WEB-INF/views/read.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/webapp/WEB-INF/views/write.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/webapp/WEB-INF/views/write.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/webapp/formtagExam.html" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/webapp/formtagExam.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/webapp/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/webapp/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/webapp/modifypw.html" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/webapp/modifypw.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/webapp/webList.html" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/webapp/webList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstweb/src/main/webapp/write.html" beforeDir="false" afterPath="$PROJECT_DIR$/../firstweb/src/main/webapp/write.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minishop/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../minishop/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minishop/minishop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../minishop/minishop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../minishop/minishop/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboard/src/main/java/my/example/spring/board/springboard/controller/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboard/src/main/java/my/example/spring/board/springboard/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboard/src/main/java/my/example/spring/board/springboard/dao/PageDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboard/src/main/java/my/example/spring/board/springboard/dao/PageDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboard/src/main/java/my/example/spring/board/springboard/dao/PageDaoSql.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboard/src/main/java/my/example/spring/board/springboard/dao/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboard/src/main/java/my/example/spring/board/springboard/dao/UserDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboard/src/main/java/my/example/spring/board/springboard/dao/UserDaoSql.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboard/src/main/java/my/example/spring/board/springboard/dto/Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboard/src/main/java/my/example/spring/board/springboard/dto/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboard/src/main/java/my/example/spring/board/springboard/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboard/src/main/java/my/example/spring/board/springboard/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboard/src/main/webapp/WEB-INF/views/calendar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="41" />
+    <option name="y" value="23" />
+    <option name="width" value="1239" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springdiary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springdiary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springdiary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springdiary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springdiary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springdiary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springdiary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springdiary" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="SpringboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="my.example.spring.board.springboard.SpringboardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="734c57ed-159a-4a6a-825e-1c36633f6831" name="Default Changelist" comment="" />
+      <created>1555835958689</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555835958689</updated>
+      <workItem from="1555835960052" duration="20000" />
+      <workItem from="1555836190946" duration="547000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="567000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="41" y="23" width="1239" height="777" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25396827" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Diary.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
