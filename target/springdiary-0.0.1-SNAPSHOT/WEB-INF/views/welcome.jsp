@@ -1,24 +1,36 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: bigyo
+  Date: 2019-05-05
+  Time: 11:42
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" xmlns:padding="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>게시글 작성</title>
+    <title>게시글 목록</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-
-<nav class="navbar navbar">
+<nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="/index">킴보드</a>
+            <a class="navbar-brand" href="#">킴보드</a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="/index">Home</a></li>
+            <li class="active"><a href="index">Home</a></li>
             <li><a href="/calendar">다이어리</a></li>
             <li><a href="/diarylist">연대기</a></li>
         </ul>
@@ -40,27 +52,19 @@
         </form>
     </div>
 </nav>
-<form action="/modify" method="post">
-<h1 style="text-align:center">게시글 작성</h1>
-<div class="container table-bordered" style="padding-top: 15px;">
-        <h2>${board.regdate}</h2><br>
-        <div class="form-group">
-            <input type="hidden"  id="id" name="id" value = "${board.id}"/>
-            <label for="nickname">작성자 : </label>
-            <label>${sessionScope.logininfo.nickname}</label>
-        </div>
-        <div class="form-group">
-            <label for="content">내용</label>
-            <textarea class="form-control" rows="10" id="content" name="content">${board.content}</textarea>
-        </div>
-        <button type="cancel" class="pull-right btn btn-default"><a href="/freeboard">취소</a></button>
-        <button type="submit" class="pull-right btn btn-default">올리기</button>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-</form>
+
+<div style="width: 100%">
+
+    <img src="${pageContext.request.contextPath}/img/sugo.jpg" width="100%">
+
+    <h1 style="text-align:center" >${sessionScope.logininfo.nickname} 님!!!!</h1>
+
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 </html>
-
-
-

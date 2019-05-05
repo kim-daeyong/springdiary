@@ -8,11 +8,11 @@
         <version>2.1.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>my.example.spring.board</groupId>
-    <artifactId>springboard</artifactId>
+    <groupId>my.example.spring.diary</groupId>
+    <artifactId>springdiary</artifactId>
     <packaging>war</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboard</name>
+    <name>springdiary</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -163,6 +163,7 @@
             <artifactId>bootstrap</artifactId>
             <version>4.3.1</version>
         </dependency>
+
 </dependencies>
 
 
