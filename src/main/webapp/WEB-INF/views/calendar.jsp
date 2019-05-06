@@ -34,7 +34,12 @@
 <nav class="navbar navbar" style="vertical-align: middle; margin-bottom: 0px">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="/index">킴보드</a>
+            <c:if test ="${sessionScope.logininfo == null}">
+                <a class="navbar-brand" href="/index">킴보드</a>
+            </c:if>
+            <c:if test ="${sessionScope.logininfo != null}">
+                <a class="navbar-brand" href="/welcome">킴보드</a>
+            </c:if>
         </div>
         <ul class="nav navbar-nav">
             <li><a href="/calendar">다이어리</a></li>
@@ -165,3 +170,11 @@
 </script>
 </body>
 </html>
+
+
+<%--<c:if test ="${sessionScope.logininfo == null}">--%>
+    <%--<a class="navbar-brand" href="/index">킴보드</a>--%>
+<%--</c:if>--%>
+<%--<c:if test ="${sessionScope.logininfo != null}">--%>
+    <%--<a class="navbar-brand" href="/welcome">킴보드</a>--%>
+<%--</c:if>--%>
