@@ -11,13 +11,12 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<nav class="navbar navbar">
+<nav class="navbar navbar"style="vertical-align: middle; margin-bottom: 0px">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="/index">킴보드</a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="/index">Home</a></li>
             <li><a href="/calendar">다이어리</a></li>
             <li><a href="/diarylist">연대기</a></li>
         </ul>
@@ -40,7 +39,7 @@
     </div>
 </nav>
 
-<h1 style="text-align:center"> currentDate </h1>
+<h1 style="text-align:center"> 일기 작성 </h1>
 <form action="/write" method="post">
 <div class="container table-bordered" style="padding-top: 15px;">
         <h2 id="time-result"></h2><br>

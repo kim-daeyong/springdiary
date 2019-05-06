@@ -16,21 +16,34 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>게시글 목록</title>
+    <title>수고헀어요!</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <style>
+        #main_backimg {
+
+            width: 100%;
+            height:760px;
+            background-image: url('/img/sugo.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+    </style>
 </head>
 <body>
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar" style="vertical-align: middle; margin-bottom: 0px" >
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">킴보드</a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="index">Home</a></li>
             <li><a href="/calendar">다이어리</a></li>
             <li><a href="/diarylist">연대기</a></li>
         </ul>
@@ -54,11 +67,9 @@
 </nav>
 </div>
 
-<div style="width: 100%">
-
-    <img src="${pageContext.request.contextPath}/img/sugo.jpg" width="100%">
-
-    <h1 style="text-align:center" >${sessionScope.logininfo.nickname} 님!!!!</h1>
+<div id = "main_backimg">
+    <br><br><br>
+    <h1 style="text-align:center; color: snow;" >${sessionScope.logininfo.nickname} 님!!!!</h1>
 
 
 </div>

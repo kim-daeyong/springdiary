@@ -22,15 +22,30 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+        #main_backimg {
+
+            width: 100%;
+            height:760px;
+            background-image: url('/img/sugo.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+    </style>
+
+
 </head>
+<%--<body style = "background-image: url('/img/sugo.jpg'); background-repeat: no-repeat; background-position: bottom; background-size: cover;" >--%>
 <body>
-<nav class="navbar navbar ">
-    <div class="container-fluid">
+<nav class="navbar navbar" style="vertical-align: middle; margin-bottom: 0px">
+    <div class="container-fluid" >
         <div class="navbar-header">
             <a class="navbar-brand" href="#">킴보드</a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="index">Home</a></li>
             <li><a href="/calendar">다이어리</a></li>
             <li><a href="/diarylist">연대기</a></li>
         </ul>
@@ -52,15 +67,20 @@
         </form>
     </div>
 </nav>
-</div>
-
+<div id = "main_backimg">
 <%--<div style="background-image: url('./img/<%=write.getFileRealName()%>');" >--%>
 <%--<div class="container" style="background-image: url('./uploadImage/<%=write.getFileRealName()%>'); opacity: 0.6"></div>--%>
 <%--<div style="background-image: url('${pageContext.request.contextPath}/img/sugo.jpg');" >--%>
 
-<div style="width: 100%; background-image: url('${pageContext.request.contextPath}/img/sugo.jpg');" >
+<%--<div style="width: 100%; background-image: url('/img/sugo.jpg');" >--%>
 
     <%--<img src="${pageContext.request.contextPath}/img/sugo.jpg" width="100%">--%>
+
+
+    <%--<div class="title_txt">--%>
+        <%--<h2>글자 글자 글자</h2>--%>
+    <%--</div>--%>
+
 
 
 </div>

@@ -7,18 +7,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>게시글 작성</title>
+    <title>게시글 수정</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
-<nav class="navbar navbar">
+<nav class="navbar navbar"style="vertical-align: middle; margin-bottom: 0px">
     <div class="container-fluid">
         <div class="navbar-header">
             <a class="navbar-brand" href="/index">킴보드</a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="/index">Home</a></li>
             <li><a href="/calendar">다이어리</a></li>
             <li><a href="/diarylist">연대기</a></li>
         </ul>
