@@ -48,13 +48,9 @@
 <div class="container table-bordered" style="padding-top: 15px;">
     <h2>${board.regdate}</h2><br>
 
-    <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3 class="panel-title">작성자</h3>
-        </div>
-        <div class="panel-body" >
-            ${board.nickname}
-        </div>
+    <div class="form-group">
+        <label for="nickname" >작성자 : </label>
+        <label id ="nickname" value="${sessionScope.logininfo.nickname}">${sessionScope.logininfo.nickname}</label>
     </div>
 
     <div class="panel panel-default">
@@ -67,10 +63,11 @@
     </div>
     <button type="cancel" class="pull-right btn btn-default"><a href="/diarylist">목록</a></button>
     <button type="submit" class="pull-right btn btn-default"><a href="/modify?id=${board.id}">수정</a></button>
-    <button type="submit" class="pull-right btn btn-default" data-toggle="modal" data-target="#myModal">삭제</button>
+    <%--<button type="button" class="pull-right btn btn-default" id="deletebutton">모달삭제</button>--%>
+    <button type="button" class="btn btn-default"><a href="/delete?id=${board.id}">삭제</a></button>
 
     <!-- Modal  -->
-    <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal fade" id="delete" role="dialog">
         <div class="modal-dialog">
 
             <!-- Modal content-->
@@ -100,5 +97,20 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
+<script>
+$(function() {
+
+$("#delete").dialog({
+autoOpen: false,
+modal: true
+});
+
+$("#deletebutton").on("click", function(e) {
+e.preventDefault();
+$("#delete").dialog("open");
+});
+
+});
+</script>
 </body>
 </html>

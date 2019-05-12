@@ -2,6 +2,7 @@ package my.example.spring.diary.controller;
 
 
 import my.example.spring.diary.dto.Board;
+import my.example.spring.diary.dto.User;
 import my.example.spring.diary.service.BoardService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -30,8 +31,11 @@ public class BoardController {
     @GetMapping("/diarylist")
     public String dairyList(
             @RequestParam(name = "page", required = false, defaultValue = "1") int page,
-            Model model) {
-        List<Board> boards = boardService.selectAllBoards(page);
+            Model model, HttpSession session) {
+
+        User user = (User)session.getAttribute("logininfo");
+
+        List<Board> boards = boardService.selectAllBoards(user.getId(), page);
 
         model.addAttribute("boards", boards);
         return "diarylist";
@@ -40,8 +44,9 @@ public class BoardController {
     @GetMapping("/calendar")
     public String calledar(
             @RequestParam(name = "page", required = false, defaultValue = "1") int page,
-            Model model) {
-        List<Board> boards = boardService.selectAllBoards(page);
+            Model model,  HttpSession session) {
+        User user = (User)session.getAttribute("logininfo");
+        List<Board> boards = boardService.selectAllBoards(user.getId(), page);
 
         model.addAttribute("boards", boards);
         return "calendar";
@@ -66,12 +71,16 @@ public class BoardController {
     }
 
     @PostMapping("/modify")
-    public String modifyAction(
+    public String modifyAction(@RequestParam(name = "id") long id,
                               @RequestParam(name = "content") String content,
                               Model model,
                               HttpSession session) {
         Board board = new Board(content);
-//        long id = boardService.addBoard(board);
+        User user = (User)session.getAttribute("logininfo");
+        board.setId(id);
+        board.setUser_id(user.getId());
+        board.setNickname(user.getNickname());
+        boardService.modifyBoard(board);
         model.addAttribute("message", "글이 등록되었습니다.");
 
         return "redirect:diarylist";
@@ -83,14 +92,24 @@ public class BoardController {
     }
 
     @PostMapping("/write")
-    public String writeAction(@RequestParam(name = "nickname") String nickname,
+    public String writeAction(
                               @RequestParam(name = "content") String content,
                               Model model,
                               HttpSession session) {
-        Board board = new Board(nickname, content);
-//        long id = boardService.addBoard(board);
+        User user = (User)session.getAttribute("logininfo");
+        Board board = new Board(content);
+        board.setUser_id(user.getId());
+        board.setNickname(user.getNickname());
+        boardService.addBoard(board);
         model.addAttribute("message", "글이 등록되었습니다.");
 
+        return "redirect:diarylist";
+    }
+
+    @GetMapping("/delete")
+    public String delete(@RequestParam(name = "id")long id, HttpSession httpSession, Model model){
+        User user = (User) httpSession.getAttribute("logininfo");
+        boardService.deleteBoard(id,user.getId());
         return "redirect:diarylist";
     }
 

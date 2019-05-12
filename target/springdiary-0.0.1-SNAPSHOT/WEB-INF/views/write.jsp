@@ -49,18 +49,18 @@
 <div class="container table-bordered" style="padding-top: 15px;">
         <h2 id="time-result"></h2><br>
         <div class="form-group">
-            <label for="nickname">작성자 : </label>
-            <label>${sessionScope.logininfo.nickname}</label>
+            <label for="nickname" >작성자 : </label>
+            <label id ="nickname" value="${sessionScope.logininfo.nickname}">${sessionScope.logininfo.nickname}</label>
         </div>
         <div class="form-group">
             <label for="content">내용</label>
             <textarea class="form-control" rows="10" id="content" name="content"></textarea>
         </div>
-        <button type="cancel" class="pull-right btn btn-default"><a href="/freeboard">취소</a></button>
+        <button type="cancel" class="pull-right btn btn-default"><a href="/diarylist">취소</a></button>
         <button type="submit" class="pull-right btn btn-default">올리기</button>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <script type="text/javascript">
         var d = new Date();

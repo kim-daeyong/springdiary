@@ -9,6 +9,8 @@ import lombok.ToString;
 
 import java.util.Date;
 
+
+
 @Data
 @Getter
 @Setter
@@ -17,6 +19,7 @@ public class Board{
     private String nickname;
     private String content;
     private Date regdate;
+    private long user_id;
 
     public Board() {
         regdate = new Date();

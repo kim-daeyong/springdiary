@@ -31,8 +31,10 @@ public class BoardDaoImpl implements BoardDao{
     }
 
     @Override
-    public List<Board> selectAllBoards(int start, int limit) {
+    public List<Board> selectAllBoards(long userid,int start, int limit) {
         Map<String, Object> paramMap = new HashMap<>();
+
+        paramMap.put("userid", userid);
         paramMap.put("start", start);
         paramMap.put("limit", limit);
         return jdbc.query(SELECT_BOARDS, paramMap,rowMapper);
@@ -58,26 +60,25 @@ public class BoardDaoImpl implements BoardDao{
         paramMap.put("nickname", board.getNickname());
         paramMap.put("content", board.getContent());
         paramMap.put("regdate", board.getRegdate());
+        paramMap.put("user_id", board.getUser_id());
 
         Number number = simpleJdbcInsert.executeAndReturnKey(paramMap);
         return number.longValue();
     }
 
     @Override
-    public long updateBoard(Long id, String content) {
-        long count = 0;
+    public void modifyBoard(String content, Long id) {
         Map<String, Object> paramMap = new HashMap<>();
         paramMap.put("id", id);
         paramMap.put("content", content);
-        count = jdbc.update(UPDATE_BOARD, paramMap);
-        return count;
+        jdbc.update(UPDATE_BOARD, paramMap);
     }
 
     @Override
-    public long deleteBoard(Long id) {
-        long result = 0;
+    public long deleteBoard(Long id, Long userid) {
         Map<String, Object> paramMap = new HashMap<>();
         paramMap.put("id",id);
+        paramMap.put("userid",userid);
         return jdbc.update(DELETE_BOARD, paramMap);
     }
 

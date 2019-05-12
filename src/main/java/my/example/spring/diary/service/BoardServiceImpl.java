@@ -16,9 +16,9 @@ public class BoardServiceImpl implements BoardService {
 
     @Override
     @Transactional(readOnly = true)
-    public List<Board> selectAllBoards(int page) {
+    public List<Board> selectAllBoards(Long userid, int page) {
         int start = page * 10 - 10;
-        return boardDao.selectAllBoards(start,10);
+        return boardDao.selectAllBoards(userid, start,10);
     }
 
     @Override
@@ -36,14 +36,14 @@ public class BoardServiceImpl implements BoardService {
 
     @Override
     @Transactional
-    public long updateBoard(Long id, String content) {
-        return boardDao.updateBoard(id,content);
+    public void modifyBoard(Board board) {
+        boardDao.modifyBoard(board.getContent(), board.getId());
     }
 
     @Override
     @Transactional
-    public long deleteBoard(Long id) {
-        return boardDao.deleteBoard(id);
+    public long deleteBoard(Long id, Long userid) {
+        return boardDao.deleteBoard(id, userid);
     }
 
 

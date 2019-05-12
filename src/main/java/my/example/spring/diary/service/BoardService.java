@@ -6,9 +6,9 @@ import my.example.spring.diary.dto.Board;
 import java.util.List;
 
 public interface BoardService {
-    List<Board> selectAllBoards(int page);
+    List<Board> selectAllBoards(Long userid, int page);
     Board selectBoard(Long id);
     long addBoard(Board board);
-    long updateBoard(Long id,String content);
-    long deleteBoard(Long id);
+    void modifyBoard(Board board);
+    long deleteBoard(Long id, Long userid);
 }

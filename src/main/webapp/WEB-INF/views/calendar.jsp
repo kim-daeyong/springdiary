@@ -17,12 +17,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <style type="text/css">
-        #container{width:100%;*zoom:1;text-align:center;}
-        #container:after {content:" "; display:block; clear:both;}
-        #left{float:left;width:30%;}
-        #top{float:top;width:50%;}
-        #bottom{float:bottom;width:50%;}
-        #right{floay:right;width:70%;display:inline-block;}
+        /*#container{width:100%;*zoom:1;text-align:center;}*/
+        /*#container:after {content:" "; display:block; clear:both;}*/
+        #left{float:left;}
+        #top{float:top;}
+        #bottom{float:bottom;}
+        #right{floay:right;display:inline-block;}
     </style>
 
 
@@ -68,8 +68,8 @@
 
 <div id="container">
 
-    <div id="left">
-        <div id="top">
+    <div id="left" style="width: 40%; text-align: right;">
+        <div id="top" style="text-align: center">
             <h1>test</h1>
             <input type="text" id="datepicker">
         </div>
@@ -90,14 +90,14 @@
         </div>
     </div>
 
-    <div id="right">
-        <form action="/modify" method="post">
+    <div id="right" style="width: 60%; text-align: left">
+        <form action="#" method="post" style="width: 90%;">
             <h1 style="text-align:center">${board.regdate}</h1>
-            <div class="container table-bordered" style="padding-top: 15px;">
+            <div class="container table-bordered" style="padding-top: 15px; width: 90%;">
                 <h2>${board.regdate}</h2><br>
                 <div class="form-group">
                     <input type="hidden"  id="id" name="id" value = "${board.id}"/>
-                    <label for="nickname">작성자 : </label>
+                    <label >작성자 : </label>
                     <label>${sessionScope.logininfo.nickname}</label>
                 </div>
                 <div class="form-group">
