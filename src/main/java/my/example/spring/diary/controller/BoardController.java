@@ -52,6 +52,8 @@ public class BoardController {
         return "calendar";
     }
 
+
+
     @GetMapping("/view")
     public String view(
             @RequestParam(name = "id") long id,
@@ -113,4 +115,15 @@ public class BoardController {
         return "redirect:diarylist";
     }
 
+
+    @GetMapping("/testcalendar")
+    public String testcalledar(
+            @RequestParam(name = "page", required = false, defaultValue = "1") int page,
+            Model model,  HttpSession session) {
+        User user = (User)session.getAttribute("logininfo");
+        List<Board> boards = boardService.selectAllBoards(user.getId(), page);
+
+        model.addAttribute("boards", boards);
+        return "test";
+    }
 }

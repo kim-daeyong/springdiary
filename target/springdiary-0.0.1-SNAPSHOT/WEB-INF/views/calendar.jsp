@@ -91,7 +91,7 @@
     </div>
 
     <div id="right" style="width: 60%; text-align: left">
-        <form action="/modify" method="post" style="width: 90%;">
+        <form action="#" method="post" style="width: 90%;">
             <h1 style="text-align:center">${board.regdate}</h1>
             <div class="container table-bordered" style="padding-top: 15px; width: 90%;">
                 <h2>${board.regdate}</h2><br>
