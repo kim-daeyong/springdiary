@@ -11,4 +11,7 @@ public interface BoardDao {
     long addBoard(Board board);
     void modifyBoard(String content, Long id);
     long deleteBoard(Long id, Long userid);
+
+    List<Board> searchBoards(long userid,String searchData,int start, int limit);
+
 }

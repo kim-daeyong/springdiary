@@ -20,4 +20,7 @@ public class BoardDaoSQL {
     public static final String INSERT =
            "INSERT INTO board(nickname, content) VALUES(?, ?)";
 
+    public static final String Search =
+            "SELECT id, nickname, content, regdate FROM board WHERE content=:searchData";
+
 }
