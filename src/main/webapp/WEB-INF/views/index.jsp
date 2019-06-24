@@ -51,7 +51,7 @@
             </c:if>
         </div>
         <ul class="nav navbar-nav">
-            <li><a href="/calendar">다이어리</a></li>
+            <li><a href="/coding.do">다이어리</a></li>
             <li><a href="/diarylist">연대기</a></li>
             <li><a href="/testcalendar">test</a></li>
         </ul>
